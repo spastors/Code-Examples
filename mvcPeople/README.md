@@ -1,6 +1,10 @@
 # Módulo CRUD con PHP y MySQL usando el patrón MVC (Modelo Vista Controlador)
 
-A continuación se detallan los pasos a seguir:
+El proyecto subido a este Git crea, edita y lista registros para la entidad "users", usando PHP, MySQL y Bootsrap 5.3.
+
+![Imagen de la página inicial del proyecto](/mvcPeople/project.png)
+
+A continuación se detallan los pasos a seguir para un modelo CRUD completo:
 
 ## 1. Crear la base de datos MySQL
 
@@ -50,9 +54,3 @@ Por ejemplo, el controlador para la entidad "users" podría tener los siguientes
 Finalmente, se debe integrar todo el proyecto para que funcione correctamente.
 
 Por ejemplo, el archivo index.php podría ser el archivo principal que incluye los archivos necesarios para el modelo, la vista y el controlador. Además, se debe asegurar de que la conexión a la base de datos esté establecida antes de llamar a los métodos del modelo.
-
-## Nota
-
-El proyecto subido a este Git crea, edita y lista registros para la entidad "users", usando PHP, MySQL y Bootsrap 5.3.
-
-![Imagen de la página inicial del proyecto](/mvcPeople/project.png)
