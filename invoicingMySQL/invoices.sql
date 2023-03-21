@@ -117,7 +117,7 @@ CREATE TABLE `sizes` (
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
--- -- Relaciones entre las tablas -- --
+-- -- Relationships between tables -- --
 ALTER TABLE
     `invoices`
 ADD
